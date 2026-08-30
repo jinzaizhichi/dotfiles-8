@@ -1,28 +1,4 @@
 {
-  "[clojure]": {
-    "editor.formatOnSave": false
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "breadcrumbs.enabled": true,
   "debug.toolBarLocation": "docked",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -31,6 +7,7 @@
   "editor.fontFamily": "Menlo, 'DejaVu Sans Mono', Consolas, 'Lucida Console', monospace",
   "editor.fontSize": 13.5,
   "editor.formatOnSave": true,
+  "terminal.integrated.fontSize": 14,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "selection",
@@ -70,10 +47,46 @@
   "telemetry.enableTelemetry": false,
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontSize": 14,
   "typescript.suggest.enabled": false,
   "window.titleBarStyle": "custom",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "none",
-  "yaml.format.singleQuote": true
+  "yaml.format.singleQuote": true,
+  "[clojure]": {
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prolog.executablePath": "/usr/local/bin/swipl",
+  "git.openRepositoryInParentFolders": "never",
+  "claudeCode.preferredLocation": "panel",
+  "git.confirmSync": false,
+  "git.addAICoAuthor": "off",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.disableAIFeatures": true,
+  "editor.hover.showLongLineWarning": false
 }

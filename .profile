@@ -29,8 +29,12 @@ if [ -f "$HOME/.cargo/env" ]; then
   source "$HOME/.cargo/env"
 fi
 
-if [ -f "$HOME/.env" ]; then
-  source "$HOME/.env"
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+if [ -f .env ]; then
+  source .env
 fi
 
 if [ -e "$HOME/.iterm2_shell_integration.bash" ]; then
